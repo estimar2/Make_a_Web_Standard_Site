@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  font-size: 40px;
+  font-weight: bold;
+
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#header_wrap {
+  background: #8d6e63;
+}
+
+#banner_wrap {
+  background: #a1887f;
+}
+
+#content_wrap {
+  background: #bcaaa4;
+}
+
+#footer_wrap {
+  background: #d7ccc8;
+}
+
+.header_container {
+  background: #3e2723;
+}
+
+.banner_container {
+  background: #4e342e;
+}
+
+.content_container {
+  background: #5d4037;
+}
+
+.footer_container {
+  background: #6d4c41;
+}
