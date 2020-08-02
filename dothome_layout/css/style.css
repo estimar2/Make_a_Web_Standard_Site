@@ -1,5 +1,37 @@
 @charset "utf-8";
 
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+/* skip navigation */
+#skip {
+  position: relative;
+}
+
+#skip a {
+  position: absolute;
+
+  top: -35px;
+  left: 0;
+
+  width: 160px;
+
+  line-height: 30px;
+
+  text-align: center;
+
+  border: 1px solid #fff;
+
+  color: #fff;
+  background: #333;
+}
+
+#skip a:active,
+#skip a:focus {
+  top: 0;
+}
+
 /* layouts */
 #wrap {
   width: 100%;
