@@ -559,7 +559,7 @@ body {
   background-position: -167px -90px;
 }
 
-/* notice2 */
+/* Notice2 */
 .notice2 {
   position: relative;
 
@@ -575,7 +575,7 @@ body {
   padding-bottom: 3px;
 }
 
-.notice2 ul li {
+.notice2 li {
   overflow: hidden;
 
   background: url(../img/dot.gif) no-repeat 0px 8px;
@@ -583,7 +583,7 @@ body {
   padding-left: 8px;
 }
 
-.notice2 ul li a {
+.notice2 li a {
   width: 65%;
 
   float: left;
@@ -595,12 +595,12 @@ body {
   white-space: nowrap;
 }
 
-.notice2 ul li:hover a,
-.notice2 ul li:hover span {
+.notice2 li:hover a,
+.notice2 li:hover span {
   text-decoration: underline;
 }
 
-.notice2 ul li span {
+.notice2 li span {
   width: 30%;
 
   float: right;
@@ -625,5 +625,78 @@ body {
 }
 
 .notice2 a.more:hover {
+  background-position: -167px -90px;
+}
+
+/* Notice3 */
+.notice3 {
+  position: relative;
+}
+
+.notice3 h4 {
+  color: #0093bd;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  padding-bottom: 3px;
+}
+
+.notice3 li {
+  position: relative;
+
+  padding: 8px 0px 14px 60px;
+}
+
+.notice3 li a img {
+  width: 50px;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  border: 1px solid #0093bd;
+}
+
+.notice3 li a strong {
+  display: block;
+}
+
+.notice3 li:hover a strong {
+  font-weight: bold;
+
+  text-decoration: underline;
+}
+
+.notice3 li a span {
+  display: block;
+
+  font-size: 12px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.notice3 li:hover a span {
+  text-decoration: underline;
+}
+
+.notice3 a.more {
+  width: 17px;
+  height: 17px;
+
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  display: block;
+
+  background: url(../img/icon.png) no-repeat -150px -90px;
+}
+
+.notice3 a.more:hover {
   background-position: -167px -90px;
 }
