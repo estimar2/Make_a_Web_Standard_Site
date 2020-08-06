@@ -330,7 +330,8 @@ body {
   background: url(../img/icon.png) no-repeat -150px 0px;
 }
 
-.ban a.prev span {
+.ban a.prev:hover {
+  background-position: -193px 0px;
 }
 
 .ban a.next {
@@ -343,6 +344,10 @@ body {
   right: -80px;
 
   background: url(../img/icon.png) no-repeat -150px -43px;
+}
+
+.ban a.next:hover {
+  background-position: -193px -43px;
 }
 
 .ban ul {
