@@ -700,3 +700,78 @@ body {
 .notice3 a.more:hover {
   background-position: -167px -90px;
 }
+
+/* Notice4 _ Mouse Hover */
+.notice_hover h4 {
+  color: #0093bd;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  padding-bottom: 3px;
+}
+
+.notice_hover ul {
+  overflow: hidden;
+}
+
+.notice_hover li {
+  width: 93px;
+
+  float: left;
+
+  margin-right: 5px;
+
+  text-align: center;
+}
+
+.notice_hover li:nth-child(3) {
+  margin-right: 0;
+}
+
+.notice_hover li.last {
+  margin-right: 0;
+}
+
+.notice_hover li a span {
+  width: 93px;
+  height: 93px;
+
+  position: relative;
+
+  display: block;
+
+  line-height: 93px;
+}
+
+.notice_hover li a span img {
+  width: 100%;
+}
+
+.notice_hover li a span em {
+  visibility: hidden;
+
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  color: #fff;
+
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.notice_hover li a span:hover em {
+  visibility: visible;
+}
+
+.notice_hover li a strong {
+  display: inline-block;
+
+  padding-top: 3px;
+
+  font-weight: 12px;
+}
