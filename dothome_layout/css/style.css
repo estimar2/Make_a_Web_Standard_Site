@@ -81,9 +81,7 @@ body {
 }
 
 #footer {
-  height: 200px;
-
-  background: #333;
+  border-top: 1px solid #eee;
 }
 
 /* cont_layout */
@@ -1220,4 +1218,56 @@ body {
 /* Gallery Img */
 .gallery .gallery_img img {
   width: 100%;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+
+  padding: 25px 0px;
+}
+
+.footer ul {
+  margin-bottom: 20px;
+}
+
+.footer li {
+  display: inline;
+
+  position: relative;
+
+  padding: 0px 7px 0px 10px;
+}
+
+.footer li::before {
+  content: "";
+
+  width: 1px;
+  height: 12px;
+
+  position: absolute;
+
+  top: 2px;
+  left: 0;
+
+  background: #ccc;
+}
+
+.footer li:first-child::before {
+  content: "";
+
+  width: 0px;
+  height: 0px;
+}
+
+.footer li:hover a {
+  text-decoration: underline;
+}
+
+.footer li a strong {
+  font-weight: bold;
+}
+
+.footer .w3c {
+  margin-top: 15px;
 }
