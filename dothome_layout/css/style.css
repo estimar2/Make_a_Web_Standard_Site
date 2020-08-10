@@ -730,6 +730,84 @@ body {
   background-position: -167px -90px;
 }
 
+/* login */
+#login_form {
+  background: #f2f4f5;
+
+  padding: 15px;
+}
+
+.login_header {
+  height: 30px;
+
+  font-size: 12px;
+
+  overflow: hidden;
+}
+
+.login_header .ih_check {
+  float: left;
+}
+
+.login_header .ih_check .input_check {
+  vertical-align: -2px;
+}
+
+.login_header .lh_ip {
+  float: left;
+}
+
+.login_header .lh_ip em {
+  color: #0093bd;
+
+  text-decoration: underline;
+}
+
+.login_content {
+  position: relative;
+}
+
+.login_content .input_text {
+  width: 182px;
+  height: 16px;
+
+  background: #fff;
+
+  padding: 2px 5px;
+
+  border: 1px solid #b2b2b2;
+
+  margin-bottom: 3px;
+}
+
+.login_content .ic_btn {
+  width: 62px;
+  height: 47px;
+
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  background: #fff;
+}
+
+.login_footer {
+  margin-top: 5px;
+}
+
+.login_footer li {
+  display: inline;
+}
+
+.login_footer li a {
+  font-size: 12px;
+}
+
+.login_footer li a strong {
+  font-weight: bold;
+}
+
 /* Notice4 _ Mouse Hover */
 .notice_hover h4 {
   color: #0093bd;
