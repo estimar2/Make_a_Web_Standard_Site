@@ -26,6 +26,7 @@
     <!-- style -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slick.css" />
   </head>
   <body>
     <!-- skip navigation -->
@@ -236,7 +237,7 @@
         <div id="cont_ban">
           <div class="container">
             <div class="ban">
-              <a href="#" class="prev">
+              <!-- <a href="#" class="prev">
                 <span class="ir_pm">이전 이미지</span>
               </a>
               <ul>
@@ -267,7 +268,70 @@
               </ul>
               <a href="#" class="next">
                 <span class="ir_pm">다음 이미지</span>
-              </a>
+              </a> -->
+              <div>
+                <a href="#">
+                  <img src="./img/banner_link1.jpg" alt="웹 표준 지침서 보기" />
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img
+                    src="./img/banner_link2.jpg"
+                    alt="CSS를 이용한 입체적인 버튼 만들기"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img
+                    src="./img/banner_link3.jpg"
+                    alt="HTML5를 이용한 로그인 폼 만들기"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="./img/banner_link1.jpg" alt="웹 표준 지침서 보기" />
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img
+                    src="./img/banner_link2.jpg"
+                    alt="CSS를 이용한 입체적인 버튼 만들기"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img
+                    src="./img/banner_link3.jpg"
+                    alt="HTML5를 이용한 로그인 폼 만들기"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="./img/banner_link1.jpg" alt="웹 표준 지침서 보기" />
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img
+                    src="./img/banner_link2.jpg"
+                    alt="CSS를 이용한 입체적인 버튼 만들기"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img
+                    src="./img/banner_link3.jpg"
+                    alt="HTML5를 이용한 로그인 폼 만들기"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -809,6 +873,8 @@
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- slick.js -->
+    <script src="js/slick.min.js"></script>
     <script type="text/javascript">
       // 버튼을 클릭하면 전체 메뉴가 보이도록
       $(".tit .btn").click(function (e) {
@@ -821,6 +887,20 @@
         // $("#cont_nav").fadeToggle();
         $("#cont_nav").slideToggle();
         $(this).toggleClass("on");
+      });
+
+      // banner
+      // 1. HTML 마크업 세팅
+      // 2. CSS 연동
+      // 3. jQuery 연동
+      // 4. jQuery 호출
+      $(".ban").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        dots: true,
       });
     </script>
   </body>
