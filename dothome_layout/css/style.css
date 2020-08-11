@@ -87,6 +87,8 @@ body {
 /* cont_layout */
 #cont_nav {
   background: #f6fdff;
+
+  display: none;
 }
 
 #cont_tit {
@@ -334,6 +336,10 @@ body {
   height: 60px;
 
   background: url(../img/icon.png) no-repeat 0px -600px;
+}
+
+.tit .btn.on {
+  background-position: 0px -660px;
 }
 
 /* cont_ban */
