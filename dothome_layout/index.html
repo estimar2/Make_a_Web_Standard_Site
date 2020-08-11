@@ -678,7 +678,7 @@
                     </li>
                     <li>
                       <a href="">공지사항2</a>
-                      <ul style="display: none;">
+                      <ul>
                         <li>
                           <a href="#">
                             두 번째 공지사항 탭 메뉴 테스트 목록입니다.
@@ -698,7 +698,7 @@
                     </li>
                     <li>
                       <a href="">공지사항3</a>
-                      <ul style="display: none;">
+                      <ul>
                         <li>
                           <a href="#">
                             세 번째 공지사항 탭 메뉴 테스트 목록입니다.
@@ -902,6 +902,31 @@
         autoplaySpeed: 5000,
         dots: true,
       });
+
+      // Tab Menu
+      var $tab_list = $(".tab_menu");
+
+      $tab_list.find("ul ul").hide();
+
+      $tab_list.find("li.active > ul").show();
+
+      function tabMenu(e) {
+        e.preventDefault();
+
+        var $this = $(this);
+
+        $this
+          .next("ul")
+          .show()
+          .parent("li")
+          .addClass("active")
+          .siblings("li")
+          .removeClass("active")
+          .find(">ul")
+          .hide();
+      }
+
+      $tab_list.find("ul>li>a").click(tabMenu).focus(tabMenu);
     </script>
   </body>
 </html>
