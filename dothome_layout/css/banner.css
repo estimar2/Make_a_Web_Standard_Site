@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+/* cont_ban */
+/* .ban {
+  position: relative;
+
+  padding: 24px 0px 20px 0px;
+}
+
+.ban a.prev {
+  width: 43px;
+  height: 43px;
+
+  position: absolute;
+
+  top: 60px;
+  left: -80px;
+
+  background: url(../img/icon.png) no-repeat -150px 0px;
+}
+
+.ban a.prev:hover {
+  background-position: -193px 0px;
+}
+
+.ban a.next {
+  width: 43px;
+  height: 43px;
+
+  position: absolute;
+
+  top: 60px;
+  right: -80px;
+
+  background: url(../img/icon.png) no-repeat -150px -43px;
+}
+
+.ban a.next:hover {
+  background-position: -193px -43px;
+}
+
+.ban ul {
+  overflow: hidden;
+}
+
+.ban .ban_img1 {
+  text-align: left;
+}
+
+.ban .ban_img2 {
+  text-align: center;
+}
+
+.ban .ban_img3 {
+  text-align: right;
+}
+
+.ban ul li {
+  width: 330px;
+
+  float: left;
+}
+
+.ban ul li img {
+  border: 4px solid #dcdcdc;
+}
+
+.ban ul li img:hover {
+  border-color: #98bcdc;
+}
+
+.ban ul li:nth-child(2) {
+  text-align: center;
+}
+
+.ban ul li:last-child {
+  text-align: right;
+} */
+
+/* Slick Banner */
+.ban {
+  position: relative;
+
+  padding: 24px 0px 40px 0px;
+}
+
+.ban .slick-slide {
+  margin: 10px;
+}
+
+.ban .slick-prev {
+  width: 43px;
+  height: 43px;
+
+  position: absolute;
+
+  top: 80px;
+  left: -80px;
+
+  background: url(../img/icon.png) no-repeat -150px 0px;
+
+  text-indent: -9999px;
+}
+
+.ban .slick-prev:hover {
+  background-position: -193px 0px;
+}
+
+.ban .slick-next {
+  width: 43px;
+  height: 43px;
+
+  position: absolute;
+
+  top: 80px;
+  right: -80px;
+
+  background: url(../img/icon.png) no-repeat -150px -43px;
+
+  text-indent: -9999px;
+}
+
+.ban .slick-next:hover {
+  background-position: -193px -43px;
+}
+
+.ban img {
+  border: 4px solid #dcdcdc;
+}
+
+.ban img:hover {
+  border-color: #98bcdc;
+}
+
+.ban .slick-dots {
+  width: 100%;
+
+  position: absolute;
+
+  display: block;
+
+  bottom: 15px;
+
+  text-align: center;
+}
+
+.ban .slick-dots li {
+  width: 15px;
+  height: 15px;
+
+  display: inline-block;
+
+  margin: 5px;
+}
+
+.ban .slick-dots li button {
+  width: 15px;
+  height: 15px;
+
+  display: block;
+
+  font-size: 0;
+
+  line-height: 0;
+
+  border-radius: 50%;
+
+  background: #5dbfeb;
+
+  cursor: pointer;
+}
+
+.ban .slick-dots li.slick-active button {
+  background: #2b91c8;
+}

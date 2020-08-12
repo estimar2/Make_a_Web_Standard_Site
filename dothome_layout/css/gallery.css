@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* Gallery */
+.gallery {
+  height: 254px;
+
+  overflow: hidden;
+
+  position: relative;
+
+  border: 1px solid #ccc;
+}
+
+.gallery h4 {
+  color: #0093bd;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  border-bottom: 1px solid #ccc;
+
+  padding: 10px 0px 8px 11px;
+}
+
+/* Gallery Btn */
+.gallery .gallery_btn {
+  position: absolute;
+
+  top: 7px;
+  right: 5px;
+}
+
+.gallery .gallery_btn ul {
+  overflow: hidden;
+}
+
+/* .gallery .gallery_btn li {
+    float: left;
+  
+    margin: 1px 2px;
+  }
+  
+  .gallery .gallery_btn li a {
+    width: 23px;
+    height: 23px;
+  
+    display: block;
+  
+    background: url(../img/icon.png) no-repeat;
+  }
+  
+  .gallery .gallery_btn li.gb_icon1 a {
+    background-position: -150px -120px;
+  }
+  
+  .gallery .gallery_btn li.gb_icon2 a {
+    background-position: -150px -143px;
+  }
+  
+  .gallery .gallery_btn li.gb_icon3 a {
+    background-position: -150px -166px;
+  }
+  
+  .gallery .gallery_btn li.gb_icon4 a {
+    background-position: -150px -189px;
+  }
+  
+  .gallery .gallery_btn li.gb_icon1 a:hover {
+    background-position: -173px -120px;
+  }
+  
+  .gallery .gallery_btn li.gb_icon2 a:hover {
+    background-position: -173px -143px;
+  }
+  
+  .gallery .gallery_btn li.gb_icon3 a:hover {
+    background-position: -173px -166px;
+  }
+  
+  .gallery .gallery_btn li.gb_icon4 a:hover {
+    background-position: -173px -189px;
+  } */
+
+/* Gallery Img */
+.gallery .gallery_img img {
+  width: 100%;
+}
+
+/* Slick Gallery */
+.gallery .gallery_btn button {
+  width: 23px;
+  height: 23px;
+
+  float: left;
+
+  margin: 1px 2px;
+
+  display: block;
+
+  background: url(../img/icon.png) no-repeat;
+}
+
+.gallery .gallery_btn .gb_icon1 {
+  background-position: -150px -120px;
+}
+
+.gallery .gallery_btn .gb_icon2 {
+  background-position: -150px -143px;
+}
+
+.gallery .gallery_btn .gb_icon3 {
+  background-position: -150px -166px;
+}
+
+.gallery .gallery_btn .gb_icon4 {
+  background-position: -150px -189px;
+}
+
+.gallery .gallery_btn .gb_icon1:hover {
+  background-position: -173px -120px;
+}
+
+.gallery .gallery_btn .gb_icon2:hover {
+  background-position: -173px -143px;
+}
+
+.gallery .gallery_btn .gb_icon3:hover {
+  background-position: -173px -166px;
+}
+
+.gallery .gallery_btn .gb_icon4:hover {
+  background-position: -173px -189px;
+}

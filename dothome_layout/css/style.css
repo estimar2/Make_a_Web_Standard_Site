@@ -68,16 +68,11 @@ body {
 }
 
 /* layouts */
-#wrap {
-}
 
 #header {
   height: 325px;
 
   background: url(../img/header_bg.jpg) center top repeat-x;
-}
-
-#contents {
 }
 
 #footer {
