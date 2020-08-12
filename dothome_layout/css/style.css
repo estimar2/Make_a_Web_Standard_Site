@@ -1420,3 +1420,44 @@ body {
 .footer .w3c {
   margin-top: 15px;
 }
+
+/* Layer POP UP */
+#layer {
+  display: none;
+
+  width: 700px;
+
+  position: fixed;
+
+  top: 50px;
+  left: 50px;
+
+  border: 10px solid #dceff7;
+
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+#layer img {
+  width: 100%;
+
+  display: block;
+}
+
+#layer .close {
+  position: absolute;
+
+  top: 20px;
+  right: 20px;
+
+  background: #0093bd;
+
+  padding: 2px 6px;
+
+  color: #fff;
+}
+
+#layer .close:hover {
+  text-decoration: underline;
+
+  font-weight: bold;
+}
