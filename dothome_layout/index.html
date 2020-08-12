@@ -12,8 +12,6 @@
     <meta name="generator" content="vscode" />
     <title>WEB STANDARD SITE_01</title>
 
-    <!-- script -->
-
     <!-- google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
@@ -27,6 +25,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/lightgallery.css" />
   </head>
   <body>
     <!-- skip navigation -->
@@ -556,9 +555,24 @@
                         <img src="./img/sban08.jpg" alt="광고08" />
                       </a>
                     </li>
-                    <li class="last">
-                      <a href="#">
+                    <li class="last lightgallery">
+                      <a href="img/webstandard3.jpg">
                         <img src="./img/sban09.jpg" alt="광고09" />
+                      </a>
+                      <a href="img/webstandard2.jpg" style="display: none;">
+                        <img src="./img/sban09.jpg" alt="웹표준2" />
+                      </a>
+                      <a href="img/webstandard1.jpg" style="display: none;">
+                        <img src="./img/sban09.jpg" alt="웹표준1" />
+                      </a>
+                      <a href="img/webstandard3.jpg" style="display: none;">
+                        <img src="./img/sban09.jpg" alt="웹표준3" />
+                      </a>
+                      <a href="img/webstandard2.jpg" style="display: none;">
+                        <img src="./img/sban09.jpg" alt="웹표준2" />
+                      </a>
+                      <a href="img/webstandard1.jpg" style="display: none;">
+                        <img src="./img/sban09.jpg" alt="웹표준1" />
                       </a>
                     </li>
                   </ul>
@@ -929,9 +943,15 @@
     </div>
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
     <!-- slick.js -->
-    <script src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <!-- lightgallery.js -->
+    <script type="text/javascript" src="js/lightgallery.js"></script>
+    <script type="text/javascript" src="js/lightgallery-all.min.js"></script>
     <script type="text/javascript">
       // 버튼을 클릭하면 전체 메뉴가 보이도록
       $(".tit .btn").click(function (e) {
@@ -1040,6 +1060,14 @@
           "popup01",
           "width=800, height=560, left=50, top=50, scrollbars=0, toolbar=0, menubar=no"
         );
+      });
+
+      // Light Box
+      $(".lightgallery").lightGallery({
+        thembnail: true,
+        autoplay: true,
+        pause: 3000,
+        progressBar: true,
       });
     </script>
   </body>
