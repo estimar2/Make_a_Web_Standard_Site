@@ -758,7 +758,7 @@
                 <div class="gallery">
                   <h4>포트폴리오</h4>
                   <div class="gallery_btn">
-                    <ul>
+                    <!-- <ul>
                       <li class="gb_icon1">
                         <a href="#">
                           <span class="ir_pm">시작</span>
@@ -779,10 +779,30 @@
                           <span class="ir_pm">다음 이미지</span>
                         </a>
                       </li>
-                    </ul>
+                    </ul> -->
+                    <button class="gb_icon1 play">
+                      <span class="ir_pm">
+                        plady
+                      </span>
+                    </button>
+                    <button class="gb_icon2 pause">
+                      <span class="ir_pm">
+                        pause
+                      </span>
+                    </button>
+                    <button class="gb_icon3 prev">
+                      <span class="ir_pm">
+                        prev image
+                      </span>
+                    </button>
+                    <button class="gb_icon4 next">
+                      <span class="ir_pm">
+                        next image
+                      </span>
+                    </button>
                   </div>
                   <div class="gallery_img">
-                    <ul>
+                    <!-- <ul>
                       <li>
                         <a href="#">
                           <img src="./img/gallery01.jpg" alt="갤러리 이미지1" />
@@ -803,7 +823,38 @@
                           <img src="./img/gallery04.jpg" alt="갤러리 이미지4" />
                         </a>
                       </li>
-                    </ul>
+                      <li>
+                        <a href="#">
+                          <img src="./img/gallery05.jpg" alt="갤러리 이미지5" />
+                        </a>
+                      </li>
+                    </ul> -->
+
+                    <div>
+                      <a href="#">
+                        <img src="./img/gallery01.jpg" alt="갤러리 이미지1" />
+                      </a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <img src="./img/gallery02.jpg" alt="갤러리 이미지2" />
+                      </a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <img src="./img/gallery03.jpg" alt="갤러리 이미지3" />
+                      </a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <img src="./img/gallery04.jpg" alt="갤러리 이미지4" />
+                      </a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <img src="./img/gallery05.jpg" alt="갤러리 이미지5" />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -927,6 +978,30 @@
       }
 
       $tab_list.find("ul>li>a").click(tabMenu).focus(tabMenu);
+
+      // Portfolio
+      $(".gallery_img").slick({
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        infinite: true,
+      });
+
+      $(".play").click(function () {
+        $(".gallery_img").slick("slickPlay");
+      });
+
+      $(".pause").click(function () {
+        $(".gallery_img").slick("slickPause");
+      });
+
+      $(".prev").click(function () {
+        $(".gallery_img").slick("slickPrev");
+      });
+
+      $(".next").click(function () {
+        $(".gallery_img").slick("slickNext");
+      });
     </script>
   </body>
 </html>
